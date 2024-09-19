@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <a href="index.html"><img class="logo" src="logo.png" alt="logo"></a>
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Szukaj..." class="searchInput">
+                    <img src="searchicon.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="login">ZALOGUJ SIE</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">STRONA GŁÓWNA</h3>
+            <h3 class="menuItem">WSZYSTKIE</h3>
+            <h3 class="menuItem">MĘSKIE</h3>
+            <h3 class="menuItem">DAMSKIE</h3>
+            <h3 class="menuItem">NOWA KOLECKJA</h3>
+        </div>
+    </nav>
+    
+    <div class="main">
+        <div class="baner">
+            <img src="baner.jpg" alt="baner">
+        </div>
+        <article>  
+            <h1>NASZE PRODUKTY</h1>
+        </article>
+
+        <div class="products">
+            <section class="left">
+                <img src="nfs1.jpg" alt="baggy denim">
+                <h3>Spodnie <b>1099PLN</b></h3>
+                <button onclick="addToCart(1, 'Produkt1', 1099)">Dodaj do koszyka</button>
+            </section>
+    
+            <section class="middle">
+                <img src="balenc2.png" alt="jacket">
+                <h3>Kurtka <b>1499PLN</b></h3>
+                <button onclick="addToCart(2, 'Produkt2', 1499)">Dodaj do koszyka</button>
+            </section>
+            
+            <section class="right">
+                <img src="Website3.png" alt="">
+                <h3>Bluza <b>849PLN</b></h3>
+                <button onclick="addToCart(3, 'Produkt3', 849)">Dodaj do koszyka</button>
+            </section>
+
+        </div>
+
+        <div class="koszyk">
+            <h2>Koszyk</h2>
+            <ul id="koszyk"></ul>
+      
+            <script src="main.js"></script>
+        </div>
+        
+    </div>
+
+    <footer>
+        <p>Krzysztof Smolnik 5i</p>
+    </footer>
+ 
+</body>
+
+</html>

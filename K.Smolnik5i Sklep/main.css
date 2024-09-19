@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(197, 195, 195);
+  }
+
+  .logo{
+    width: 50%;
+    height: 60% ;
+  }
+  
+  nav {
+    background-color: #080808;
+    color: #fff;
+    padding: 20px 50px;
+  }
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    background-color: rgb(134, 134, 134);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .searchInput::placeholder {
+    color: lightgray;
+  }
+  
+  .login {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(54, 170, 206);
+    cursor: pointer;
+  }
+  
+  .navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menuItem {
+    margin-right: 50px;
+    cursor: pointer;
+    color: rgb(164, 200, 216);
+    font-weight: 400;
+  }
+  
+  .baner{
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+  }
+  
+  article {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .products{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+ b {
+    color: rgb(87, 92, 92);
+ }
+
+ button{
+    background-color: rgb(100, 100, 116);
+    color: rgb(235, 227, 227);
+    border-radius:6px;
+    
+ }
+
+ article{
+    font-size: 180%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3f3e3e;
+ }
+
+ footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(164, 200, 216);
+    background-color: #080808;
+    margin-top: 5%;
+    font-size: 130%;
+ }
+
+ .koszyk{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid;
+ }
